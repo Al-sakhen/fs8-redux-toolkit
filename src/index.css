@@ -30,3 +30,14 @@ div.buttonsContainer {
 button {
   @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-zinc-600 capitalize hover:cursor-pointer inline-block rounded bg-emerald-700 px-4 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none active:bg-emerald-500 focus:ring-0
 }
+
+/* =========================================================================== */
+/* ======================= NAVIGATION BAR =================================== */
+/* =========================================================================== */
+nav ul li a {
+  @apply capitalize p-2 font-medium rounded-xl active:bg-emerald-500 transition-colors duration-200
+}
+
+nav ul li a.active {
+  @apply bg-emerald-700/50
+}

@@ -41,7 +41,7 @@ const Home = () => {
     return (
         <div className="pt-20">
             <div className="buttonsContainer">
-                <button onClick={incrementHandler} disabled>Increment</button>
+                <button onClick={incrementHandler}>Increment</button>
                 <button onClick={decrementHandler}>Decrement</button>
                 <button onClick={incrementWithPayloadHandler}>
                     Incremet with payload
